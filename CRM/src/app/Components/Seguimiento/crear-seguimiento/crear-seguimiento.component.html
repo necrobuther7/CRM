@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="text-center">
+        <img class="d-block mx-auto mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+        <h2>Crear Seguimiento</h2>
+        <!--<p class="lead">Por favor ingrese cada uno de los campos solicitados.</p>-->
+    </div>
+
+    <br/>
+
+    <div class="row">
+        <div class="col-md-12 order-md-2">
+            <form class="needs-validation" novalidate="">
+                <div class="row">
+                    <div class="col-md-6 mb-6">
+                        <label for="solicitud">Numero Seguimiento</label>
+                        <p>183987</p>
+                    </div>
+
+                    <div class="col-md-6 mb-6">
+                        <label for="tipoRadicado">Tipo Seguimiento</label>
+                        <select class="custom-select d-block w-100" id="tipoRadicado" required="">
+                          <option value="">Seleccione...</option>
+                          <option>Seguimiento Venta</option>
+                          <option>Seguimiento Cliente</option>
+                          <option>Seguimiento Producto</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please provide a valid state.
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <br/><br/>
+
+            <div class="row center">
+                <div class="col-md-5 mb-5"></div>
+
+                <div class="col-md-2">
+                    <hr class="mb-2">
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">Crear</button>
+                </div>
+                <div class="col-md-5 mb-5"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>
+    window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')
+</script>
+<script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+<script src="form-validation.js"></script>

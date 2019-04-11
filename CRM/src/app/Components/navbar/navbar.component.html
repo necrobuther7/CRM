@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['login']">Login</a>
+            </li>
+
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['crea-pqrs']">Crear PQRS</a>
+            </li>
+
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['consulta-pqrs']">Consulta PQRS</a>
+            </li>
+
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['crear-seguimiento']">Crear Seguimiento</a>
+            </li>
+
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['consultar-seguimiento']">Consulta Seguimiento</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
